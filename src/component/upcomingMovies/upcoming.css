@@ -1,0 +1,163 @@
+.Upcoming-section{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#swiperMovies{
+    height: fit-content;
+    padding: 40px;
+}
+.movieUpcoming1{
+text-align: left;
+    width: 200px;
+    height: 180px;
+    background-image:linear-gradient(60deg, #130101b6 50%, #00000027 100%), url(../../assets/upcoming1.jpg);
+    background-position: center center;
+    background-size: cover;
+   position: relative;
+   transition: all .5s ease-in-out;
+
+}
+.movieUpcoming1:hover{
+    transform: scale(1.1);
+    border-left: 5px solid red;
+}
+.upcoming-movie1{
+  position: absolute;
+  top: 20%;
+  left: 30px;
+}
+.movie1-header{
+    text-transform: uppercase;
+}
+.playBTN-Upcoming {
+    display: flex;
+   gap: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 40px;
+    background-color: red;
+    margin-top: 20px;
+
+}
+.playBTN-Upcoming {
+
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    background: rgb(196, 7, 7);
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .playBTN-Upcoming:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: red;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .playBTN-Upcoming:hover, .playBTN-Upcoming:focus, .playBTN-Upcoming:active {
+    color: white;
+  }
+  .playBTN-Upcoming:hover:before, .playBTN-Upcoming:focus:before, .playBTN-Upcoming:active:before {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+.movieUpcoming2{
+        text-align: left;
+        width: 200px;
+        height: 180px;
+        background-image:linear-gradient(60deg, #130101b6 50%, #00000027 100%), url(../../assets/upcoming2.jpg);
+        background-position: center center;
+        background-size: cover;
+       position: relative;
+       transition: all .5s ease-in-out;
+
+    }
+    .movieUpcoming2:hover{
+        transform: scale(1.1);
+        border-left: 5px solid red;
+    }
+    .movieUpcoming3{
+        width: 200px;
+        height: 180px;
+        background-image:linear-gradient(60deg, #130101b6 50%, #00000027 100%), url(../../assets/upcoming3.jpg);
+        background-position: center center;
+        background-size: cover;
+       position: relative;
+       transition: all .5s ease-in-out;
+
+    }
+    .movieUpcoming3:hover{
+        transform: scale(1.1);
+        border-left: 5px solid red;
+    }
+    .movieUpcoming4{
+        width: 200px;
+        height: 180px;
+        background-image:linear-gradient(60deg, #130101b6 50%, #00000027 100%), url(../../assets/upcoming4.jpg);
+        background-position: center center;
+        background-size: cover;
+       position: relative;
+       transition: all .5s ease-in-out;
+
+    }
+    .movieUpcoming4:hover{
+        transform: scale(1.1);
+        border-left: 5px solid red;
+    }
+    .movieUpcoming5{
+        width: 200px;
+        height: 180px;
+        background-image:linear-gradient(60deg, #130101b6 50%, #00000027 100%), url(../../assets/upcoming5.jpg);
+        background-position: center center;
+        background-size: cover;
+       position: relative;
+       transition: all .5s ease-in-out;
+
+    }
+    .movieUpcoming5:hover{
+        transform: scale(1.1);
+        border-left: 5px solid red;
+    }
+
+    .movieUpcoming6{
+        width: 200px;
+        height: 180px;
+        background-image:linear-gradient(60deg, #130101b6 50%, #00000027 100%), url(../../assets/upcoming6.jpg);
+        background-position: center center;
+        background-size: cover;
+       position: relative;
+       transition: all .5s ease-in-out;
+    }
+    .movieUpcoming6:hover{
+        transform: scale(1.1);
+        border-left: 5px solid red;
+    }
+    .viewAll-btn{
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+    .viewAll-btn:hover{
+        color: red;
+    }

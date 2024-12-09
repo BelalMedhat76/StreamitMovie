@@ -1,0 +1,209 @@
+.swiper {
+  width: 100%;
+  height: 100vh;
+}
+
+.swiper-slide {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  /* text-align: center; */
+  padding: 0 100px 0 100px;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#slide1 {
+  background-image: 
+ url(../../../assets/back1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#slide1 {
+  background-image:linear-gradient(60deg, #130101b6 50%, #00000027 100%),
+    url(../../../assets/back1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#slide2 {
+  background-image: linear-gradient(60deg, #130101b6 50%, #00000027 100%),
+    url(../../../assets/back2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#slide3 {
+  background-image:linear-gradient(60deg, #130101b6 50%, #00000027 100%),
+    url(../../../assets/back3.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#slide4 {
+  background-image: linear-gradient(60deg, #130101b6 50%, #00000027 100%),
+    url(../../../assets/back4.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.slide_container {
+  margin-top: 70px;
+  display: flex;
+  flex: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.slide-right-content {
+  flex: 60%;
+
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.slide-left-content {
+
+  flex: 40%;
+  display: flex;
+  justify-content: center;
+ position: relative;
+
+}
+.head-logo {
+  width: 190px;
+  background-color: rgba(0, 0, 0, 0.158);
+  padding: 2px 10px 5px 15px;
+  border-left: 5px solid red;
+
+  border-right: 0;
+}
+.head-logo img {
+  width: 160px;
+}
+.sand-text {
+  text-transform: uppercase;
+  font-size: 65px;
+  font-weight: 900;
+  color: white;
+}
+#review-stars{
+    color: red;
+}
+.reviewLine{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.reviewLine span{
+    margin: 0 5px 0 5px ;
+}
+#movie-GP{
+    background-color:rgb(117, 84, 84);
+    width: 30px;
+    text-align: center;
+}
+.playBTN{
+    display: flex;
+   gap: 5px;
+    align-items: center;
+    justify-content: center;
+    max-width: 160px;
+    height: 50px;
+    background-color: red;
+    margin-top: 20px;
+
+}
+.playBTN {
+   
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    background: rgb(196, 7, 7);
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .playBTN:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: red;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .playBTN:hover, .playBTN:focus, .playBTN:active {
+    color: white;
+  }
+  .playBTN:hover:before, .playBTN:focus:before, .playBTN:active:before {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  /* videos */
+
+  #videoIcon{
+  margin-right: 20px;
+  
+    color: red;
+  }
+  #videoIcon:hover{
+    color:#fff;
+    
+  }
+  #videoIcon:active{
+    color: #fff;
+  }
+  .leftSide-videoRow{
+    position: absolute;
+    top: 200px;
+    display: flex;
+
+ vertical-align: center;
+ align-items: center;
+    flex-direction: row;
+  }
+  #watch_trailer{
+    letter-spacing: 9px;
+  }
+  /* @media only screen and (min-width: 800px) {
+    .swiper-slide{
+        padding: 10px;
+    }
+    .slide_container {
+        flex-direction: column;
+     flex-wrap: wrap;
+        }
+        .slide-right-content {
+          flex: 100%;
+          width:100%;
+     
+        }
+        .slide-left-content {
+          flex: 100%;
+        
+      
+        }   
+      
+  } */
